@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/shoppingimg" android:layout_width="60.0dip" android:layout_height="80.0dip" android:layout_marginLeft="20.0dip" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" android:layout_weight="1.0" />
+    <LinearLayout android:orientation="vertical" android:layout_width="150.0dip" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_weight="2.0">
+        <TextView android:textSize="10.0sp" android:textColor="#ff555555" android:gravity="center_vertical" android:id="@id/shopping1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="生 产 商：" android:layout_weight="1.0" />
+        <TextView android:textSize="10.0sp" android:textColor="#ff555555" android:gravity="center_vertical" android:id="@id/shopping2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="产品分类：" android:layout_weight="1.0" />
+        <TextView android:textSize="10.0sp" android:textColor="#ff555555" android:gravity="center_vertical" android:id="@id/shopping3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="产品型号：" android:layout_weight="1.0" />
+        <TextView android:textSize="10.0sp" android:textColor="#ff555555" android:gravity="center_vertical" android:id="@id/shopping4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="品牌/商标：" android:layout_weight="1.0" />
+        <TextView android:textSize="10.0sp" android:textColor="#ff555555" android:gravity="center_vertical" android:id="@id/shopping5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="市 场 价：" android:layout_weight="1.0" />
+        <TextView android:textSize="12.0sp" android:textStyle="italic" android:textColor="#ffff4366" android:gravity="center_vertical" android:id="@id/shopping6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="会 员 价：" android:layout_weight="1.0" />
+    </LinearLayout>
+    <CheckBox android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginRight="10.0dip" android:layout_weight="1.0" />
+</LinearLayout>

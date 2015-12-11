@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="tvCaption">false</item>
+    <item type="id" name="tvInfo">false</item>
+    <item type="id" name="start">false</item>
+    <item type="id" name="layout_main">false</item>
+    <item type="id" name="ivWelcome">false</item>
+    <item type="id" name="scrollDescrp">false</item>
+    <item type="id" name="tvDescrp">false</item>
+    <item type="id" name="imgGallery">false</item>
+    <item type="id" name="tvQuestionsTotal">false</item>
+    <item type="id" name="tvQuestionsRemain">false</item>
+    <item type="id" name="layout_question">false</item>
+    <item type="id" name="tvQuestionTitle">false</item>
+    <item type="id" name="rgOptionsGroup">false</item>
+    <item type="id" name="btnPrevious">false</item>
+    <item type="id" name="btnNext">false</item>
+    <item type="id" name="layout_question2">false</item>
+    <item type="id" name="handin">false</item>
+    <item type="id" name="cancel">false</item>
+    <item type="id" name="checklist">false</item>
+    <item type="id" name="detailresult">false</item>
+</resources>

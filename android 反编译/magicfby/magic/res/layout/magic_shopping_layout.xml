@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip">
+            <TextView android:background="#ffaaaaaa" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            <ListView android:id="@id/shoppinglist" android:layout_width="fill_parent" android:layout_height="480.0dip" />
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:gravity="center" android:background="#ffff4366" android:layout_width="fill_parent" android:layout_height="60.0dip" android:layout_alignParentBottom="true">
+        <Button android:textColor="#ffffffff" android:gravity="center" android:id="@id/proposebtn" android:background="@drawable/proposebtn_border" android:layout_width="120.0dip" android:layout_height="50.0dip" android:text="我要推荐" />
+    </LinearLayout>
+</RelativeLayout>

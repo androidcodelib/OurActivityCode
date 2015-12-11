@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="main_activity_horizontal_margin">13.0dip</dimen>
+    <dimen name="main_activity_horizontal_bigmargin">15.0dip</dimen>
+    <dimen name="main_activity_vertical_margin">5.0dip</dimen>
+    <dimen name="main_activity_button_height">100.0dip</dimen>
+    <dimen name="main_activity_slide_height">150.0dip</dimen>
+    <dimen name="main_activity_button_below_img_heigth">40.0dip</dimen>
+    <dimen name="main_activity_button_below_text_heigth">25.0dip</dimen>
+    <dimen name="main_activity_bottomebtn_maxheigt">115.0dip</dimen>
+    <dimen name="main_activity_bottomebtn_minheigt">70.0dip</dimen>
+    <dimen name="main_activity_bottomebtn_slide_imgheigt">45.0dip</dimen>
+    <dimen name="main_activity_bottomebtn_slide_bigimgheigt">50.0dip</dimen>
+    <dimen name="main_activity_bottomebtn_slide_txtheigt">20.0dip</dimen>
+    <dimen name="main_activity_bottomebtn_middlebtn_size">100.0dip</dimen>
+    <dimen name="main_activity_list_item_height">50.0dip</dimen>
+    <dimen name="main_activity_fontsize">18.0sp</dimen>
+</resources>

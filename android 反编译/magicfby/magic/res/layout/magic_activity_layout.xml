@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TableLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TableRow android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:gravity="right" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="100.0dip">
+                    <ImageView android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_margin="10.0dip" android:src="@drawable/touxiang" android:layout_weight="4.0" />
+                    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="3.0">
+                        <LinearLayout android:layout_gravity="left" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="30.0dip" android:layout_marginLeft="10.0dip" android:layout_marginTop="20.0dip">
+                            <ImageView android:layout_width="20.0dip" android:layout_height="wrap_content" android:src="@drawable/wujiaoxing" />
+                            <ImageView android:layout_width="20.0dip" android:layout_height="wrap_content" android:src="@drawable/wujiaoxing" />
+                            <ImageView android:layout_width="20.0dip" android:layout_height="wrap_content" android:src="@drawable/wujiaoxing" />
+                            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" />
+                        </LinearLayout>
+                        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="30.0dip" android:layout_marginLeft="10.0dip" android:layout_marginTop="5.0dip" android:layout_marginBottom="20.0dip">
+                            <TextView android:gravity="center" android:layout_width="wrap_content" android:layout_height="20.0dip" android:text=" 200" />
+                            <ImageView android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginLeft="10.0dip" android:src="@drawable/douzi" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </TableRow>
+            <TableRow android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:background="#ff999999" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+            </TableRow>
+            <TableRow android:layout_width="fill_parent" android:layout_height="70.0dip">
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="60.0dip" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip">
+                    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+                        <TextView android:textColor="#ffff4366" android:gravity="center" android:layout_gravity="center" android:layout_width="20.0dip" android:layout_height="20.0dip" android:text="0" />
+                        <TextView android:textColor="#ff000000" android:gravity="center" android:layout_width="fill_parent" android:layout_height="20.0dip" android:text="粉丝" />
+                    </LinearLayout>
+                    <TextView android:background="#ff999999" android:layout_width="0.5dip" android:layout_height="fill_parent" />
+                    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+                        <TextView android:textColor="#ffff4366" android:gravity="center" android:layout_gravity="center" android:layout_width="20.0dip" android:layout_height="20.0dip" android:text="0" />
+                        <TextView android:textColor="#ff000000" android:gravity="center" android:layout_width="fill_parent" android:layout_height="20.0dip" android:text="关注" />
+                    </LinearLayout>
+                    <TextView android:background="#ff999999" android:layout_width="0.5dip" android:layout_height="fill_parent" />
+                    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+                        <ImageView android:layout_gravity="center" android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@drawable/shoucang" />
+                        <TextView android:textColor="#ff000000" android:gravity="center" android:layout_width="fill_parent" android:layout_height="20.0dip" android:text="收藏" />
+                    </LinearLayout>
+                    <TextView android:background="#ff999999" android:layout_width="0.5dip" android:layout_height="fill_parent" />
+                    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+                        <ImageView android:layout_gravity="center" android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@drawable/xiaoxi" />
+                        <TextView android:textColor="#ff000000" android:gravity="center" android:layout_width="fill_parent" android:layout_height="20.0dip" android:text="消息" />
+                    </LinearLayout>
+                </LinearLayout>
+            </TableRow>
+            <TableRow android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:background="#ff999999" android:layout_width="fill_parent" android:layout_height="30.0dip" />
+            </TableRow>
+            <TableRow android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="80.0dip" android:layout_marginStart="15.0dip">
+                    <ImageView android:layout_width="50.0dip" android:layout_height="50.0dip" android:src="@drawable/fabiao" android:layout_weight="1.0" />
+                    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="70.0dip" android:layout_weight="2.0">
+                        <TextView android:textAppearance="?android:textAppearanceMedium" android:gravity="center_vertical" android:layout_width="150.0dip" android:layout_height="40.0dip" android:text="发表" />
+                        <TextView android:textColor="#ff999999" android:layout_width="150.0dip" android:layout_height="20.0dip" android:text="我发的帖子" />
+                    </LinearLayout>
+                    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="80.0dip" android:layout_weight="1.0">
+                        <TextView android:textAppearance="?android:textAppearanceMedium" android:gravity="center" android:layout_width="20.0dip" android:layout_height="fill_parent" android:text="2" />
+                        <ImageView android:layout_width="20.0dip" android:layout_height="fill_parent" android:src="@drawable/mofawu_youjian" />
+                    </LinearLayout>
+                </LinearLayout>
+            </TableRow>
+            <TableRow android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:background="#ff999999" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="15.0dip" />
+            </TableRow>
+            <TableRow android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="80.0dip" android:layout_marginStart="15.0dip">
+                    <ImageView android:layout_width="50.0dip" android:layout_height="50.0dip" android:src="@drawable/dianping" android:layout_weight="1.0" />
+                    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="70.0dip" android:layout_weight="2.0">
+                        <TextView android:textAppearance="?android:textAppearanceMedium" android:gravity="center_vertical" android:layout_width="150.0dip" android:layout_height="40.0dip" android:text="点评" />
+                        <TextView android:textColor="#ff999999" android:layout_width="150.0dip" android:layout_height="20.0dip" android:text="我评价过的产品" />
+                    </LinearLayout>
+                    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="80.0dip" android:layout_weight="1.0">
+                        <TextView android:textAppearance="?android:textAppearanceMedium" android:gravity="center" android:layout_width="20.0dip" android:layout_height="fill_parent" android:text="0" />
+                        <ImageView android:layout_width="20.0dip" android:layout_height="fill_parent" android:src="@drawable/mofawu_youjian" />
+                    </LinearLayout>
+                </LinearLayout>
+            </TableRow>
+            <TableRow android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:background="#ff999999" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="15.0dip" />
+            </TableRow>
+            <TableRow android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="80.0dip" android:layout_marginStart="15.0dip">
+                    <ImageView android:layout_width="50.0dip" android:layout_height="50.0dip" android:src="@drawable/shiyong" android:layout_weight="1.0" />
+                    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="70.0dip" android:layout_weight="2.0">
+                        <TextView android:textAppearance="?android:textAppearanceMedium" android:gravity="center_vertical" android:layout_width="150.0dip" android:layout_height="40.0dip" android:text="试用" />
+                        <TextView android:textColor="#ff999999" android:layout_width="150.0dip" android:layout_height="20.0dip" android:text="我想试试" />
+                    </LinearLayout>
+                    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="80.0dip" android:layout_weight="1.0">
+                        <TextView android:textAppearance="?android:textAppearanceMedium" android:gravity="center" android:layout_width="20.0dip" android:layout_height="fill_parent" android:text="" />
+                        <ImageView android:layout_width="20.0dip" android:layout_height="fill_parent" android:src="@drawable/mofawu_youjian" />
+                    </LinearLayout>
+                </LinearLayout>
+            </TableRow>
+            <TableRow android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:background="#ff999999" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="15.0dip" />
+            </TableRow>
+            <TableRow android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="80.0dip" android:layout_marginStart="15.0dip">
+                    <ImageView android:layout_width="50.0dip" android:layout_height="50.0dip" android:src="@drawable/qiandao" android:layout_weight="1.0" />
+                    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="70.0dip" android:layout_weight="2.0">
+                        <TextView android:textAppearance="?android:textAppearanceMedium" android:gravity="center_vertical" android:layout_width="150.0dip" android:layout_height="40.0dip" android:text="签到" />
+                        <TextView android:textColor="#ff999999" android:layout_width="150.0dip" android:layout_height="20.0dip" android:text="每日签到拿积分" />
+                    </LinearLayout>
+                    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="80.0dip" android:layout_weight="1.0">
+                        <TextView android:textAppearance="?android:textAppearanceMedium" android:gravity="center" android:layout_width="20.0dip" android:layout_height="fill_parent" android:text="" />
+                        <ImageView android:layout_width="20.0dip" android:layout_height="fill_parent" android:src="@drawable/mofawu_youjian" />
+                    </LinearLayout>
+                </LinearLayout>
+            </TableRow>
+            <TableRow android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:background="#ff999999" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="15.0dip" />
+            </TableRow>
+            <TableRow android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="80.0dip" android:layout_marginStart="15.0dip">
+                    <ImageView android:layout_width="50.0dip" android:layout_height="50.0dip" android:src="@drawable/jinbi" android:layout_weight="1.0" />
+                    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="70.0dip" android:layout_weight="2.0">
+                        <TextView android:textAppearance="?android:textAppearanceMedium" android:gravity="center_vertical" android:layout_width="150.0dip" android:layout_height="40.0dip" android:text="兑换" />
+                        <TextView android:textColor="#ff999999" android:layout_width="150.0dip" android:layout_height="20.0dip" android:text="我要兑换金币" />
+                    </LinearLayout>
+                    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="80.0dip" android:layout_weight="1.0">
+                        <TextView android:textAppearance="?android:textAppearanceMedium" android:gravity="center" android:layout_width="20.0dip" android:layout_height="fill_parent" android:text="" />
+                        <ImageView android:layout_width="20.0dip" android:layout_height="fill_parent" android:src="@drawable/mofawu_youjian" />
+                    </LinearLayout>
+                </LinearLayout>
+            </TableRow>
+            <TableRow android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:background="#ff999999" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="15.0dip" />
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+</ScrollView>
