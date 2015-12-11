@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+	<item
+	    android:id="@+id/item1_cont"
+	    android:title="剪切"
+	    android:showAsAction="always">
+	   <menu>
+	       <group>
+	           <item android:title="剪切1"></item>
+	           <item android:title="剪切2"></item>
+	           <item android:title="剪切3"></item>
+	       </group>
+	        <group>
+	           <item android:title="剪切1"></item>
+	           <item android:title="剪切2"></item>
+	           <item android:title="剪切3"></item>
+	       </group>
+	   </menu>
+	</item>    
+	<item  android:id="@+id/item2_cont"
+	    android:title="复制"
+	    android:showAsAction="always">
+	   
+	</item>
+	<item  android:id="@+id/item3_cont"
+	    android:title="粘贴"
+	    android:showAsAction="always">
+	</item>
+
+</menu>

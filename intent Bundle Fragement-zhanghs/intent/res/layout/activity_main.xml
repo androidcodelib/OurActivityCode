@@ -1,0 +1,34 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.intent.MainActivity" >
+    <Button
+    android:id="@+id/btweb"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" />
+      <Button
+    android:id="@+id/btcall"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" />
+        <Button
+    android:id="@+id/btmap"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" />
+  <EditText
+        android:id="@+id/ss"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@null"
+        />
+		<Button
+		    android:id="@+id/btnext"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"/>
+       
+</LinearLayout>
